@@ -1,0 +1,30 @@
+# Dataset - DO NOT upload
+data/faceforensics/
+data/**/*.mp4
+data/**/*.avi
+data/**/*.mov
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Feature cache
+features/
+*.pt
+*.pth
+*.npy
+*.npz
+
+# Generated results
+results/
+runs/
+logs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+.env
